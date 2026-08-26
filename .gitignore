@@ -1,0 +1,7 @@
+# nada de código de produto, dados, segredos ou pesos aqui — este repo é só apresentação
+*.env
+.env
+dados/
+modelos/
+*.key
+*.pem
