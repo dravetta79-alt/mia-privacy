@@ -11,6 +11,17 @@ nunca vê o dado real.
 > 🗓️ **Domingo, 30 de agosto de 2026, liberamos aqui o link para você testar a ferramenta.**
 > Deixe uma ⭐ no repositório para ser avisado.
 
+
+## Veja funcionando (com prints reais)
+
+![Demonstração do MIA Privacy](mia-privacy-demo.gif)
+
+▶️ **Vídeo completo (53s):** [`mia-privacy-demo.mp4`](mia-privacy-demo.mp4)
+
+E no seu terminal, você prova a qualquer momento com `mia prova` — ele mostra exatamente o que o provedor recebeu:
+
+![Prova no terminal](assets/terminal.png)
+
 ---
 
 ## O problema
