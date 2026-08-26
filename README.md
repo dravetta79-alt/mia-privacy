@@ -22,6 +22,13 @@ E no seu terminal, você prova a qualquer momento com `mia prova` — ele mostra
 
 ![Prova no terminal](assets/terminal.png)
 
+### O fluxo, em 30 segundos
+
+![O fluxo do MIA Privacy](mia-privacy-flow.gif)
+
+▶️ **Vídeo do fluxo (32s):** [`mia-privacy-flow.mp4`](mia-privacy-flow.mp4) — você digita um prompt com o nome e o documento do cliente; dentro do MIA, na sua rede, eles viram `[NAME_1]` e `ID_1`; só os apelidos chegam à IA; a resposta volta e o nome real é restaurado na sua tela. **A IA ajuda muito — só não precisa saber quem é o seu cliente.**
+
+
 ---
 
 ## O problema
