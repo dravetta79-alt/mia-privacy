@@ -35,6 +35,7 @@ E no seu terminal, você prova a qualquer momento com `mia prova` — ele mostra
 Para Instagram / TikTok / Shorts, com narração em inglês:
 - ▶️ [`reels/mia-privacy-flow-reel.mp4`](reels/mia-privacy-flow-reel.mp4) — o fluxo (52s)
 - ▶️ [`reels/mia-privacy-demo-reel.mp4`](reels/mia-privacy-demo-reel.mp4) — prints reais (63s)
+- ▶️ [`reels/mia-privacy-datos-reel.mp4`](reels/mia-privacy-datos-reel.mp4) — o que acontece com os seus dados (46s)
 
 ---
 
