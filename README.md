@@ -29,6 +29,13 @@ E no seu terminal, você prova a qualquer momento com `mia prova` — ele mostra
 ▶️ **Vídeo do fluxo (32s):** [`mia-privacy-flow.mp4`](mia-privacy-flow.mp4) — você digita um prompt com o nome e o documento do cliente; dentro do MIA, na sua rede, eles viram `[NAME_1]` e `ID_1`; só os apelidos chegam à IA; a resposta volta e o nome real é restaurado na sua tela. **A IA ajuda muito — só não precisa saber quem é o seu cliente.**
 
 
+
+### Versões verticais (reels 9:16)
+
+Para Instagram / TikTok / Shorts, com narração em inglês:
+- ▶️ [`reels/mia-privacy-flow-reel.mp4`](reels/mia-privacy-flow-reel.mp4) — o fluxo (52s)
+- ▶️ [`reels/mia-privacy-demo-reel.mp4`](reels/mia-privacy-demo-reel.mp4) — prints reais (63s)
+
 ---
 
 ## O problema
