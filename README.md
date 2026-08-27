@@ -11,6 +11,32 @@ nunca vê o dado real.
 > 🗓️ **Domingo, 30 de agosto de 2026, liberamos aqui o link para você testar a ferramenta.**
 > Deixe uma ⭐ no repositório para ser avisado.
 
+<details>
+<summary><b>🇬🇧 English / 🇮🇹 Italiano</b> — short version for readers outside Brazil</summary>
+
+**EN —** MIA Privacy sits between you and the AI: it replaces names, ID numbers, addresses,
+phones, cards and API keys with *aliases* **before** the text leaves your machine, and puts the
+real values back when the answer returns. The AI works normally — it just never sees the real
+data. Deterministic check-digit rules + a fine-tuned recognition model (based on
+[rizzo-pii](https://github.com/Rizzo-AI-Academy/rizzo-pii), MIT). Works with Claude Code and
+Codex in the terminal, with Claude / ChatGPT / Gemini in the browser, and with documents
+(PDF, DOCX, XLSX, CSV, images via OCR). **WikiSecret** is an encrypted "second brain" the AI
+can consult without ever seeing the originals. Portuguese available now; **Spanish and
+English** (national IDs of 39 countries + API keys/secrets) in training. Public test link:
+**Sunday, 30 August 2026**, here.
+
+**IT —** MIA Privacy sta nel mezzo tra te e l'IA: sostituisce nomi, documenti, indirizzi,
+telefoni, carte e chiavi API con *pseudonimi* **prima** che il testo esca dalla tua macchina,
+e rimette i valori reali quando la risposta torna. L'IA lavora normalmente — solo che non vede
+mai il dato reale. Regole deterministiche con cifra di controllo + un modello di riconoscimento
+fine-tuned (basato su [rizzo-pii](https://github.com/Rizzo-AI-Academy/rizzo-pii) di Simone
+Rizzo, MIT). Funziona con Claude Code e Codex nel terminale, con Claude / ChatGPT / Gemini nel
+browser e con i documenti (PDF, DOCX, XLSX, CSV, immagini via OCR). **WikiSecret** è un
+"secondo cervello" cifrato che l'IA consulta senza mai vedere gli originali. Portoghese
+disponibile; **spagnolo e inglese** (documenti di 39 paesi + chiavi API/segreti) in
+addestramento. Link pubblico di prova: **domenica 30 agosto 2026**, qui.
+</details>
+
 
 ## Veja funcionando (com prints reais)
 
@@ -67,7 +93,7 @@ flowchart LR
 
 - **Determinístico + inteligente.** Documentos com dígito verificador (CPF, CNPJ, cartão…)
   são conferidos por regra; nomes, endereços e organizações, por um modelo de reconhecimento
-  próprio. Se um dado com formato conferível escapar, o envio é **bloqueado** em vez de sair.
+  próprio — fine-tuning do [rizzo-pii](https://github.com/Rizzo-AI-Academy/rizzo-pii) (MIT). Se um dado com formato conferível escapar, o envio é **bloqueado** em vez de sair.
 - **Reversível só na sua máquina.** A tabela que desfaz a troca nasce e morre com você — não
   sobe para servidor nenhum. Perdeu, ninguém desfaz. Nem você, nem a MIA.
 - **O texto cru não é gravado.** Passa em memória, faz a troca e some.
@@ -89,8 +115,8 @@ flowchart LR
 ## Idiomas
 
 - **Português do Brasil:** disponível.
-- **Espanhol e inglês** (documentos de dezenas de países + chaves de API/segredos): **em
-  construção** — cobertura sendo ampliada agora.
+- **Espanhol e inglês** (documentos de 39 países + chaves de API/segredos): **modelo em
+  treinamento** — dataset de 400 mil exemplos pronto (27/08).
 
 ## Roteiro
 
@@ -105,6 +131,13 @@ flowchart LR
 
 ### Quer testar?
 Deixe uma ⭐ aqui — no **domingo 30/08/2026** publicamos o link neste README.
+
+## Créditos
+
+O modelo de reconhecimento do MIA Privacy é um **fine-tuning do
+[rizzo-pii](https://github.com/Rizzo-AI-Academy/rizzo-pii)**, de **Simone Rizzo**
+(licença MIT) — copyright e texto da licença mantidos nas distribuições. Obrigado, Simone:
+o modelo e, principalmente, o seu conteúdo foram a base de tudo isto.
 
 *MIA Privacy é um produto. Este repositório é a página de apresentação: explica o que a
 ferramenta faz e como funciona, sem expor detalhes internos.*
